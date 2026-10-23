@@ -4,5 +4,6 @@
     "editor.fontLigatures": true,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "terminal.integrated.fontSize": 18,
-    "terminal.integrated.fontLigatures.enabled": true
+    "terminal.integrated.fontLigatures.enabled": true,
+    "C_Cpp.default.compilerPath": "/home/rayfei/.platformio/packages/toolchain-xtensa-esp32/bin/xtensa-esp32-elf-gcc"
 }
