@@ -24,9 +24,12 @@ int main()
     // %d把读到的值赋值给cat
     // 注意一定要加&
     printf("%d\n", cat);
-    // 常量P2.1.5
+    // P2.1.5常量
     const int ME = 100;
     // 常量尽量全部大写
-    // P2.1.6
+    // P2.1.6浮点数:见constshengao.c
+    // double:双精度浮点数  float:单精度浮点数--用法类似int
+    // 整数输入输出都是%d,浮点数输入是%lf输出是%f
+    // P2.2.1表达式
     return 0 ;
 }
