@@ -31,5 +31,21 @@ int main()
     // double:双精度浮点数  float:单精度浮点数--用法类似int
     // 整数输入输出都是%d,浮点数输入是%lf输出是%f
     // P2.2.1表达式
+    // 表达式：一系列的计算 表达式包括运算符、算子
+    // 算子：参与运算的值
+    /*
+    计算时间差
+    注：%取余取的是余数，比如5%3=2,不是2/3的结果！
+    */ 
+    int hour1 = 0;
+    int min1 = 0;
+    int hour2 = 0;
+    int min2 = 0;
+    scanf("%d %d",&hour1, &min1);
+    scanf("%d %d",&hour2, &min2);
+    int t1 = hour1*60+min1;
+    int t2 = hour2*60+min2;
+    int t0 = t2-t1;
+    printf("差值是%d小时%d分", t0/60, t0%60);
     return 0 ;
 }
