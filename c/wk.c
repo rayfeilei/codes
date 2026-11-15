@@ -47,5 +47,6 @@ int main()
     int t2 = hour2*60+min2;
     int t0 = t2-t1;
     printf("差值是%d小时%d分", t0/60, t0%60);
+    // P2.2.2运算符优先级
     return 0 ;
 }
