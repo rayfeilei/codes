@@ -25,5 +25,6 @@ int main(int argc, char const *argv[])
     if ( grade = 10 ) 
         printf("666\n");
         // 如果不加{}，C只管第一个紧跟着它的，第二行的统统不管
+        // 如果不加{}，else会和与它最近的if结合
     return 0;
 }
